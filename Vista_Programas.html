@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Pontificia Universidad Javeriana Cali</title>
+</head>
+<body>
+	<div class = "col-md-12">
+		<div id = "cont-1">
+		<div class = "col-md-8">
+			<ul class = "top_ul">
+				<li class= "top_li"><a class = "top_a">Inicio</a></li>
+				<li class= "top_li"><a class = "active top_a">Programas</a></li>
+				<li class= "top_li"><a class = "top_a">Aspirantes</a></li>
+				<li class= "top_li"><a class = "top_a">Investigación</a></li>
+				<li class= "top_li"><a class = "top_a">La Universidad</a></li>
+				<li class= "top_li"><a class = "top_a">Transparencia</a></li>
+			</ul>
+		</div>
+		<div class="topnav col-md-4">
+	   		<input id="b_s" type="text" placeholder="Search..">
+			<button type="button" class="btn btn-default"><img id = "s_icon" src="./resources/search.png"/ width="25" height="25"></button>
+		</div>
+		</div>
+		<div class = "col-md-12">
+			<div class = "col-md-3"><img id = "program_img" src="./resources/university.png"/ width="350" height="400"></div>
+			<div class = "col-md-9"><img id="banner_img" src="./resources/logo-institucional.png"/ width="1000" height="450"></div>
+		</div>
+		<div class = "title1 col-md-12"><center><h1>Facultades y Programas</h1></center></div>
+		<div class= "selection col-md-12">
+			<div class = "center_cont col-md-3">
+				<h4> <b>Ciencias Económicas y Administrativas</b></h4>
+				<div class="dropdown_money">
+				  <button onclick="drop1()" class="dropbtn">Programas</button>
+				  <div id="myDropdown1" class="dropdown-content">
+				    <a href="#">Administración de Empresas</a>
+				    <a href="#">Contaduría Pública</a>
+				    <a href="#">Economía</a>
+				    <a href="#">Negocios Internacionales</a>
+				  </div>
+				</div>
+				<img id = "dolar_img" src = "./resources/dolar.png"/ width="200" height="200">
+			</div>
+			<div class = "center_cont col-md-3">
+				<h4> <b>Humanidades y Ciencias Sociales </b></h4>
+				<div class="dropdown">
+				  <button onclick="drop2()" class="dropbtn">Programas</button>
+				  <div id="myDropdown2" class="dropdown-content">
+				    <a href="#">Arquitectura</a>
+				    <a href="#">Artes Visuales</a>
+				    <a href="#">Ciencia Política</a>
+				    <a href="#">Comunicación</a>
+				    <a href="#">Derecho</a>
+				    <a href="#">Diseño de Comunicación Visual</a>
+				    <a href="#">Filosofía</a>
+				    <a href="#">Psicología</a>
+				  </div>
+				</div>
+				<img id = "dolar_img" src = "./resources/mapa.png"/ width="200" height="200">
+			</div>
+			<div class = "center_cont col-md-3">
+				<h4> <b>Ingeniería y Ciencias</b></h4>
+				<div class="dropdown">
+				  <button onclick="drop3()" class="dropbtn">Programas</button>
+				  <div id="myDropdown3" class="dropdown-content">
+				    <a href="#">Bilogía</a>
+				    <a href="#">Ingeniería Civil</a>
+				    <a href="#">Ingeniería de Sistemas y Computación</a>
+				    <a href="#">Ingeniería Electrónica</a>
+				    <a href="#">Ingeniería Industrial</a>
+				    <a href="#">Ingeniería Mecánica</a>
+				    <a href="#">Matemáticas Aplicadas</a>
+				  </div>
+				</div>
+				<img id = "dolar_img" src = "./resources/ing.png"/ width="200" height="200">
+			</div>
+			<div class = "center_cont col-md-3">
+				<h4> <b>Ciencias de la Salud</b></h4>
+				<div class="dropdown">
+				  <button onclick="drop4()" class="dropbtn">Programas</button>
+				  <div id="myDropdown4" class="dropdown-content">
+				    <a href="#">Enfermería</a>
+				    <a href="#">Medicina</a>
+				    <a href="#">Nutrición y Dietética</a>
+				  </div>
+				</div>
+				<img id = "dolar_img" src = "./resources/salud.png"/ width="200" height="200">
+			</div>
+		</div>
+		<div id = "p_cont"class = "col-md-12">
+		<div class="col-md-3"></div>
+		</div>
+		<div class= "content_bot col-md-12">
+			<div class = "item_bot col-md-2">
+				<div class = "media_img col-md-6"><img src="./resources/fb.png"/ width="80" height="80"></div>
+				<div class = "media_img col-md-6"><img src="./resources/twit.png"/ width="80" height="80"></div>
+				<div class = "media_img col-md-6"><img src="./resources/lin.png"/ width="80" height="80"></div>
+				<div class = "media_img col-md-6"><img src="./resources/insta.png"/ width="80" height="80"></div>
+			</div>
+			<div class = "item_bot col-md-2">
+				<center><h3>Accesos Directos</h3></center>
+				<ul class = "footer_ul">
+				<li class= "footer_li"><a class = "footer_a">Aula virtual (Blackboard)</a></li>
+				<li class= "footer_li"><a class = "footer_a">Correo institucional</a></li>
+				<li class= "footer_li"><a class = "footer_a">Toma de asistencia</a></li>
+				<li class= "footer_li"><a class = "footer_a">Biblioteca</a></li>
+				</ul>
+			</div>
+			<div class = "item_bot col-md-2">
+				<center><h3>Comunidad Javeriana</h3></center>
+				<ul class = "footer_ul">
+				<li class= "footer_li"><a class = "footer_a">Estudiantes</a></li>
+				<li class= "footer_li"><a class = "footer_a">Egresados</a></li>
+				<li class= "footer_li"><a class = "footer_a">Profesores</a></li>
+				<li class= "footer_li"><a class = "footer_a">Estudiantes Virtuales</a></li>
+				</ul>
+			</div>
+			<div class = "item_bot col-md-2">
+				<center><h3>Interés general</h3></center>
+				<ul class = "footer_ul">
+				<li class= "footer_li"><a class = "footer_a">Bienestar Universitario</a></li>
+				<li class= "footer_li"><a class = "footer_a">Reglamento Estudiantil</a></li>
+				<li class= "footer_li"><a class = "footer_a">Estatuto general</a></li>
+				<li class= "footer_li"><a class = "footer_a">SNIES</a></li>
+				</ul>
+			</div>
+			<div class = "item_bot col-md-2">
+				<center><h3>Contáctenos</h3></center>
+				<ul class = "footer_ul">
+				<li class= "footer_li"><a class = "footer_a">Preguntas frecuentes</a></li>
+				<li class= "footer_li"><a class = "footer_a">Directorio Telefónico</a></li>
+				</ul>
+			</div>
+			<div class = "item_bot col-md-2">
+				<center><h3>Admisiones y Apoyo financiero</h3></center>
+				<ul class = "footer_ul">
+				<li class= "footer_li"><a class = "footer_a">Becas</a></li>
+				<li class= "footer_li"><a class = "footer_a">Financiación</a></li>
+				<li class= "footer_li"><a class = "footer_a">Pago en Línea</a></li>
+				<li class= "footer_li"><a class = "footer_a">Acceso a recibos vencidos</a></li>
+				</ul>
+			</div>
+		</div>
+			<script src="dropdown.js"></script>
+	</div>
+</body>
+</html>
